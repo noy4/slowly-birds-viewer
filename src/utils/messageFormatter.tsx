@@ -116,7 +116,10 @@ const EMOJI_MAP: { [key: string]: string } = {
   'dash': '💨',
 };
 
-export const formatMessageText = (message: SlackMessage): React.ReactNode[] => {
+export const formatMessageText = (
+  message: SlackMessage,
+  onImageClick?: (url: string) => void
+): React.ReactNode[] => {
   const parts: React.ReactNode[] = [];
   let lastIndex = 0;
 
@@ -136,7 +139,14 @@ export const formatMessageText = (message: SlackMessage): React.ReactNode[] => {
         key={`img-${match.index}`}
         src={imageUrl}
         alt="メッセージ内の画像"
-        style={{ maxWidth: '300px', maxHeight: '300px', borderRadius: '4px', margin: '4px 0' }}
+        style={{
+          maxWidth: '300px',
+          maxHeight: '300px',
+          borderRadius: '4px',
+          margin: '4px 0',
+          cursor: 'pointer'
+        }}
+        onClick={() => onImageClick?.(imageUrl)}
       />
     );
 
@@ -157,7 +167,14 @@ export const formatMessageText = (message: SlackMessage): React.ReactNode[] => {
             key={`file-${index}`}
             src={file.url_private}
             alt="添付画像"
-            style={{ maxWidth: '300px', maxHeight: '300px', borderRadius: '4px', margin: '4px 0' }}
+            style={{
+              maxWidth: '300px',
+              maxHeight: '300px',
+              borderRadius: '4px',
+              margin: '4px 0',
+              cursor: 'pointer'
+            }}
+            onClick={() => file.url_private && onImageClick?.(file.url_private)}
           />
         );
       }

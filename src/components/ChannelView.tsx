@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link as RouterLink } from 'react-router-dom'
-import { Box, Stack, Heading, Text, Button, Flex } from '@chakra-ui/react'
+import { Box, Stack, Heading, Text, Button, Flex, Modal, ModalOverlay, ModalContent, ModalBody, ModalCloseButton, Image, useDisclosure } from '@chakra-ui/react'
 import { formatMessageText, formatReaction } from '../utils/messageFormatter'
 import { SlackMessage, SlackUser } from '../types/slack'
 import { BASE_PATH } from '../config'
@@ -17,6 +17,13 @@ export function ChannelView() {
   const { channelName } = useParams<{ channelName: string }>()
   const [messages, setMessages] = useState<MessagesByDate>({})
   const [users, setUsers] = useState<{ [key: string]: SlackUser }>({})
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
+  const { isOpen, onOpen, onClose } = useDisclosure()
+
+  const handleImageClick = (url: string) => {
+    setSelectedImage(url)
+    onOpen()
+  }
 
   useEffect(() => {
     const loadData = async () => {
@@ -58,74 +65,93 @@ export function ChannelView() {
   }
 
   return (
-    <Box>
-      <Flex alignItems="center" mb={6}>
-        <Button
-          as={RouterLink}
-          to="/"
-          colorScheme="blue"
-          variant="ghost"
-          size="sm"
-          mr={4}
-        >
-          ← チャンネル一覧に戻る
-        </Button>
-        <Heading size="lg">#{channelName}</Heading>
-      </Flex>
-      <Stack spacing={8}>
-        {Object.entries(messages).map(([date, dailyMessages]) => (
-          <Box key={date}>
-            <Box
-              bg="blue.50"
-              p={2}
-              borderRadius="md"
-              mb={4}
-            >
-              <Text fontSize="lg" fontWeight="bold">
-                {dayjs(date).format('YYYY年M月D日(ddd)')}
-              </Text>
-            </Box>
-            <Stack spacing={4}>
-              {dailyMessages.map((message) => (
-                <Box
-                  key={message.ts}
-                  p={4}
-                  bg="white"
-                  borderRadius="lg"
-                  boxShadow="sm"
-                  borderWidth="1px"
-                >
-                  <Text fontWeight="bold" mb={2}>
-                    {users[message.user]?.real_name || message.user}
-                  </Text>
-                  <Box whiteSpace="pre-wrap">
-                    {formatMessageText(message)}
+    <>
+      <Box>
+        <Flex alignItems="center" mb={6}>
+          <Button
+            as={RouterLink}
+            to="/"
+            colorScheme="blue"
+            variant="ghost"
+            size="sm"
+            mr={4}
+          >
+            ← チャンネル一覧に戻る
+          </Button>
+          <Heading size="lg">#{channelName}</Heading>
+        </Flex>
+        <Stack spacing={8}>
+          {Object.entries(messages).map(([date, dailyMessages]) => (
+            <Box key={date}>
+              <Box
+                bg="blue.50"
+                p={2}
+                borderRadius="md"
+                mb={4}
+              >
+                <Text fontSize="lg" fontWeight="bold">
+                  {dayjs(date).format('YYYY年M月D日(ddd)')}
+                </Text>
+              </Box>
+              <Stack spacing={4}>
+                {dailyMessages.map((message) => (
+                  <Box
+                    key={message.ts}
+                    p={4}
+                    bg="white"
+                    borderRadius="lg"
+                    boxShadow="sm"
+                    borderWidth="1px"
+                  >
+                    <Text fontWeight="bold" mb={2}>
+                      {users[message.user]?.real_name || message.user}
+                    </Text>
+                    <Box whiteSpace="pre-wrap">
+                      {formatMessageText(message, handleImageClick)}
+                    </Box>
+                    {message.reactions && (
+                      <Flex mt={2} flexWrap="wrap" gap={2}>
+                        {message.reactions.map((reaction) => (
+                          <Box
+                            key={reaction.name}
+                            bg="gray.100"
+                            px={2}
+                            py={1}
+                            borderRadius="md"
+                            fontSize="sm"
+                            display="flex"
+                            alignItems="center"
+                          >
+                            {formatReaction(reaction.name)}
+                            <Text ml={1}>{reaction.count}</Text>
+                          </Box>
+                        ))}
+                      </Flex>
+                    )}
                   </Box>
-                  {message.reactions && (
-                    <Flex mt={2} flexWrap="wrap" gap={2}>
-                      {message.reactions.map((reaction) => (
-                        <Box
-                          key={reaction.name}
-                          bg="gray.100"
-                          px={2}
-                          py={1}
-                          borderRadius="md"
-                          fontSize="sm"
-                          display="flex"
-                          alignItems="center"
-                        >
-                          {formatReaction(reaction.name)}
-                          <Text ml={1}>{reaction.count}</Text>
-                        </Box>
-                      ))}
-                    </Flex>
-                  )}
-                </Box>
-              ))}
-            </Stack>
-          </Box>
-        ))}
-      </Stack>
-    </Box>
+                ))}
+              </Stack>
+            </Box>
+          ))}
+        </Stack>
+      </Box>
+      <Modal isOpen={isOpen} onClose={onClose} size="xl" isCentered>
+        <ModalOverlay />
+        <ModalContent bg="transparent" boxShadow="none" maxW="90vw">
+          <ModalCloseButton color="white" />
+          <ModalBody p={0}>
+            {selectedImage && (
+              <Image
+                src={selectedImage}
+                alt="拡大画像"
+                maxH="90vh"
+                objectFit="contain"
+                borderRadius="md"
+              />
+            )}
+          </ModalBody>
+        </ModalContent>
+      </Modal>
+    </>
   )
 }
