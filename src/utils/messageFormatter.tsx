@@ -5,6 +5,16 @@ const USER_MENTION_PATTERN = /<@([A-Z0-9]+)>/g;
 const SLACK_EMOJI_PATTERN = /:([a-zA-Z0-9_\-+]+):/g;
 const IMAGE_PATTERN = /<(https?:\/\/[^>]+\.(png|jpg|jpeg|gif))>/gi;
 
+interface SlackFile {
+  url_private?: string;
+  mimetype?: string;
+}
+
+interface SlackMessage {
+  files?: SlackFile[];
+  text: string;
+}
+
 // 一般的な絵文字のマッピング
 const EMOJI_MAP: { [key: string]: string } = {
   // 顔文字と感情
@@ -106,12 +116,12 @@ const EMOJI_MAP: { [key: string]: string } = {
   'dash': '💨',
 };
 
-export const formatMessageText = (text: string): React.ReactNode[] => {
+export const formatMessageText = (message: SlackMessage): React.ReactNode[] => {
   const parts: React.ReactNode[] = [];
   let lastIndex = 0;
 
   // URLの処理
-  const processedText = text.replace(URL_PATTERN, (_, url) => url);
+  const processedText = message.text.replace(URL_PATTERN, (_, url) => url);
 
   // 画像URLの処理
   let match;
@@ -133,8 +143,25 @@ export const formatMessageText = (text: string): React.ReactNode[] => {
     lastIndex = IMAGE_PATTERN.lastIndex;
   }
 
+  // テキストの残りを処理
   if (lastIndex < processedText.length) {
     parts.push(...processText(processedText.slice(lastIndex)));
+  }
+
+  // 添付ファイルの画像を処理
+  if (message.files) {
+    message.files.forEach((file, index) => {
+      if (file.url_private && file.mimetype?.startsWith('image/')) {
+        parts.push(
+          <img
+            key={`file-${index}`}
+            src={file.url_private}
+            alt="添付画像"
+            style={{ maxWidth: '300px', maxHeight: '300px', borderRadius: '4px', margin: '4px 0' }}
+          />
+        );
+      }
+    });
   }
 
   return parts;

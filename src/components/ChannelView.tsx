@@ -99,7 +99,7 @@ export function ChannelView() {
                     {users[message.user]?.real_name || message.user}
                   </Text>
                   <Box whiteSpace="pre-wrap">
-                    {formatMessageText(message.text)}
+                    {formatMessageText(message)}
                   </Box>
                   {message.reactions && (
                     <Flex mt={2} flexWrap="wrap" gap={2}>
