@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link as RouterLink } from 'react-router-dom'
 import { Box, Stack, Heading, Text, Button, Flex } from '@chakra-ui/react'
+import { formatMessageText, formatReaction } from '../utils/messageFormatter'
 import { SlackMessage, SlackUser } from '../types/slack'
 import { BASE_PATH } from '../config'
 import dayjs from 'dayjs'
@@ -97,7 +98,9 @@ export function ChannelView() {
                   <Text fontWeight="bold" mb={2}>
                     {users[message.user]?.real_name || message.user}
                   </Text>
-                  <Text whiteSpace="pre-wrap">{message.text}</Text>
+                  <Box whiteSpace="pre-wrap">
+                    {formatMessageText(message.text)}
+                  </Box>
                   {message.reactions && (
                     <Flex mt={2} flexWrap="wrap" gap={2}>
                       {message.reactions.map((reaction) => (
@@ -108,8 +111,11 @@ export function ChannelView() {
                           py={1}
                           borderRadius="md"
                           fontSize="sm"
+                          display="flex"
+                          alignItems="center"
                         >
-                          :{reaction.name}: {reaction.count}
+                          {formatReaction(reaction.name)}
+                          <Text ml={1}>{reaction.count}</Text>
                         </Box>
                       ))}
                     </Flex>
