@@ -1,60 +1,67 @@
 import { readdir, readFile, writeFile, mkdir } from 'fs/promises'
 import { join, dirname } from 'path'
 
-const SLACK_DATA_PATH = '/Users/noy/repos/slowly-birds-log/slowly birds 友の会 Slack export Jul 29 2021 - Nov 15 2023'
-const OUTPUT_PATH = './public/data'
+// GitHub Actionsとローカルでのパスを環境変数で切り替え
+const SLACK_DATA_PATH = process.env.SLACK_DATA_PATH || '../slowly birds 友の会 Slack export Jul 29 2021 - Nov 15 2023'
+const OUTPUT_PATH = './public/slack-data'
+
+async function copyFile(src, dest) {
+  try {
+    const content = await readFile(src, 'utf-8')
+    await writeFile(dest, content, 'utf-8')
+  } catch (error) {
+    console.error(`ファイルのコピーに失敗しました: ${src} -> ${dest}`, error)
+    throw error
+  }
+}
 
 async function convertData() {
   try {
     // 出力ディレクトリの作成
     await mkdir(OUTPUT_PATH, { recursive: true })
 
-    // users.jsonとchannels.jsonのコピー
-    const users = JSON.parse(await readFile(join(SLACK_DATA_PATH, 'users.json'), 'utf-8'))
-    const channels = JSON.parse(await readFile(join(SLACK_DATA_PATH, 'channels.json'), 'utf-8'))
+    // 基本ファイルのコピー
+    const baseFiles = ['users.json', 'channels.json', 'integration_logs.json', 'canvases.json']
+    for (const file of baseFiles) {
+      try {
+        await copyFile(join(SLACK_DATA_PATH, file), join(OUTPUT_PATH, file))
+      } catch (error) {
+        console.warn(`${file}のコピーをスキップしました:`, error.message)
+      }
+    }
 
-    await writeFile(join(OUTPUT_PATH, 'users.json'), JSON.stringify(users, null, 2))
-    await writeFile(join(OUTPUT_PATH, 'channels.json'), JSON.stringify(channels, null, 2))
+    // チャンネル情報の読み込み
+    const channels = JSON.parse(await readFile(join(SLACK_DATA_PATH, 'channels.json'), 'utf-8'))
 
     // チャンネルごとのメッセージデータの変換
     for (const channel of channels) {
       try {
         const channelPath = join(SLACK_DATA_PATH, channel.name)
+        const channelOutputPath = join(OUTPUT_PATH, channel.name)
+
+        // チャンネルディレクトリの作成
+        await mkdir(channelOutputPath, { recursive: true })
+
+        // チャンネル内のファイル一覧取得
         const files = await readdir(channelPath)
         const jsonFiles = files.filter(file => file.match(/^\d{4}-\d{2}-\d{2}\.json$/))
 
-        const channelData = {}
+        // 各日付のJSONファイルをコピー
         for (const file of jsonFiles) {
-          const date = file.replace('.json', '')
-          const messages = JSON.parse(await readFile(join(channelPath, file), 'utf-8'))
-          channelData[date] = messages
+          await copyFile(
+            join(channelPath, file),
+            join(channelOutputPath, file)
+          )
         }
-
-        // チャンネルごとのディレクトリを作成
-        const channelOutputPath = join(OUTPUT_PATH, 'channels')
-        await mkdir(channelOutputPath, { recursive: true })
-
-        const outputChannelPath = join(channelOutputPath, `${channel.name}.json`)
-        await writeFile(outputChannelPath, JSON.stringify(channelData, null, 2))
       } catch (error) {
         console.error(`チャンネル ${channel.name} の処理中にエラーが発生しました:`, error)
       }
     }
 
-    // index.jsonの作成(チャンネル一覧とメタデータ)
-    const index = {
-      channels: channels.map(channel => ({
-        id: channel.id,
-        name: channel.name,
-        created: channel.created
-      })),
-      exportDate: new Date().toISOString()
-    }
-    await writeFile(join(OUTPUT_PATH, 'index.json'), JSON.stringify(index, null, 2))
-
     console.log('データ変換が完了しました')
   } catch (error) {
     console.error('データ変換中にエラーが発生しました:', error)
+    process.exit(1)
   }
 }
 

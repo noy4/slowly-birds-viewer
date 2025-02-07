@@ -11,6 +11,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Checkout Slack Export Data
+        uses: actions/checkout@v3
+        with:
+          repository: noy/slowly-birds-log
+          path: slack-export
+          token: ${{ secrets.GH_PAT }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -21,7 +30,14 @@ jobs:
         run: npm ci
 
       - name: Convert Data
-        run: npm run convert-data
+        env:
+          SLACK_DATA_PATH: ./slack-export
+        run: |
+          node scripts/convert-data.js
+          if [ ! -d "public/slack-data" ]; then
+            echo "Error: public/slack-data directory was not created"
+            exit 1
+          fi
 
       - name: Build
         run: npm run build
