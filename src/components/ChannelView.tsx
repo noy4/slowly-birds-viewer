@@ -113,13 +113,13 @@ export function ChannelView() {
                     <Flex alignItems="center" mb={2}>
                       <Image
                         src={users[message.user]?.profile.image_48 || ''}
-                        alt={users[message.user]?.real_name || 'User avatar'}
+                        alt={users[message.user]?.profile.display_name || users[message.user]?.real_name || 'User avatar'}
                         boxSize="32px"
                         borderRadius="full"
                         mr={2}
                       />
                       <Text fontWeight="bold">
-                        {users[message.user]?.real_name || message.user}
+                        {users[message.user]?.profile.display_name || users[message.user]?.real_name || message.user}
                       </Text>
                     </Flex>
                     <Box whiteSpace="pre-wrap">
