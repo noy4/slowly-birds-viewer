@@ -110,9 +110,18 @@ export function ChannelView() {
                     borderWidth="1px"
                     borderColor={messageBorderColor}
                   >
-                    <Text fontWeight="bold" mb={2}>
-                      {users[message.user]?.real_name || message.user}
-                    </Text>
+                    <Flex alignItems="center" mb={2}>
+                      <Image
+                        src={users[message.user]?.profile.image_48 || ''}
+                        alt={users[message.user]?.real_name || 'User avatar'}
+                        boxSize="32px"
+                        borderRadius="full"
+                        mr={2}
+                      />
+                      <Text fontWeight="bold">
+                        {users[message.user]?.real_name || message.user}
+                      </Text>
+                    </Flex>
                     <Box whiteSpace="pre-wrap">
                       {formatMessageText(message, handleImageClick)}
                     </Box>
