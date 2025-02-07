@@ -1,0 +1,1496 @@
+{
+  "2021-07-28": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1627526639.000200",
+      "user": "U02A7QC5KEU",
+      "text": "<@U02A7QC5KEU>さんがチャンネルに参加しました"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1627526995.000600",
+      "user": "U0293DP00MV",
+      "text": "<@U0293DP00MV>さんがチャンネルに参加しました"
+    }
+  ],
+  "2021-07-29": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1627557257.000100",
+      "user": "U029QB3BKHS",
+      "text": "<@U029QB3BKHS>さんがチャンネルに参加しました"
+    },
+    {
+      "client_msg_id": "61968625-34ec-414d-958a-b00a4c4346ee",
+      "type": "message",
+      "text": "only English\nkeep going\nwe are slowly birds\nLet's go!!",
+      "user": "U02A7QC5KEU",
+      "ts": "1627612373.001000",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=Vq+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "only English\nkeep going\nwe are slowly birds\nLet's go!!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "251e6dad-52e5-4a39-af2f-bf8c056b329e",
+      "type": "message",
+      "text": "great idea",
+      "user": "U029QB3BKHS",
+      "ts": "1627612480.001200",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ONb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "great idea"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "d03409a0-070a-4606-90fd-3bdce4b4e23e",
+      "type": "message",
+      "text": "Do not check the dictionary during a conversation",
+      "user": "U02A7QC5KEU",
+      "ts": "1627612683.001400",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "pI7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Do not check the dictionary during a conversation"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "a4e67321-63e4-4957-aa4c-71f043104b3e",
+      "type": "message",
+      "text": "you can use words only you hava",
+      "user": "U02A7QC5KEU",
+      "ts": "1627612752.002000",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "15gb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "you can use words only you hava"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "447959a9-ee8c-4e5d-9d50-ccfbe64f228e",
+      "type": "message",
+      "text": "after conversation, you can check true 表現",
+      "user": "U02A7QC5KEU",
+      "ts": "1627612804.002900",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sqLY8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "after conversation, you can check true 表現"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "ab23aed0-82f6-4aea-8294-26fe560ed3c9",
+      "type": "message",
+      "text": "OK, nice rule",
+      "user": "U0293DP00MV",
+      "ts": "1627612871.003100",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wOp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "OK, nice rule"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "87a3c78e5877",
+        "image_72": "https://avatars.slack-edge.com/2021-07-30/2325734956725_87a3c78e587725708638_72.jpg",
+        "first_name": "Curb",
+        "real_name": "Curb G7",
+        "display_name": "イエスタケシタ",
+        "team": "T0293DHR90X",
+        "name": "tkstdic",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2021-08-25": [
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F02CB94CZA6",
+          "created": 1629904272,
+          "timestamp": 1629904272,
+          "name": "VID_20210826000839.mp4",
+          "title": "VID_20210826000839.mp4",
+          "mimetype": "video/mp4",
+          "filetype": "mp4",
+          "pretty_type": "MPEG 4 Video",
+          "user": "U029QB3BKHS",
+          "user_team": "T0293DHR90X",
+          "editable": false,
+          "size": 8138460,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T0293DHR90X-F02CB94CZA6/vid_20210826000839.mp4?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "url_private_download": "https://files.slack.com/files-pri/T0293DHR90X-F02CB94CZA6/download/vid_20210826000839.mp4?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "media_display_type": "video",
+          "thumb_video": "https://files.slack.com/files-tmb/T0293DHR90X-F02CB94CZA6-0ef0685fb4/vid_20210826000839_thumb_video.jpeg?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_video_w": 720,
+          "thumb_video_h": 1600,
+          "permalink": "https://slowlybirds.slack.com/files/U029QB3BKHS/F02CB94CZA6/vid_20210826000839.mp4",
+          "permalink_public": "https://slack-files.com/T0293DHR90X-F02CB94CZA6-4ae45bea09",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U029QB3BKHS",
+      "display_as_bot": false,
+      "ts": "1629904276.000100",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rc+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ],
+      "client_msg_id": "341c1421-3ae0-443e-ac21-0bf4ed98176e"
+    },
+    {
+      "client_msg_id": "24b0d2c5-88c0-4a85-9ce6-b5ee93f5c123",
+      "type": "message",
+      "text": "I'm jealous",
+      "user": "U029QB3BKHS",
+      "ts": "1629904290.000700",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "exkrC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "I'm jealous"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "EE1DAF56-3EFA-43DF-AF71-26F5AB90F1FD",
+      "type": "message",
+      "text": "わっつ？",
+      "user": "U02A7QC5KEU",
+      "ts": "1629906820.000900",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YCeRU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "わっつ？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2021-08-26": [
+    {
+      "client_msg_id": "65403f23-6118-4f1b-9a79-d21ee0cd5230",
+      "type": "message",
+      "text": "Yuma Yamasakiさんがあなたを予約されたZoomミーティングに招待しています。\n\nトピック: TEAM桑村 勉強会\n時間: 2021年8月26日 11:00 PM 大阪、札幌、東京\n\nZoomミーティングに参加する\n<https://us04web.zoom.us/j/8138751248?pwd=dHlCMEc0NmpPSDVpcGYyYkVUNkVHQT09>\n\nミーティングID: <tel:8138751248|813 875 1248>\nパスコード: 0XjEAB",
+      "user": "U02A7QC5KEU",
+      "ts": "1629983007.000200",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xT2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Yuma Yamasakiさんがあなたを予約されたZoomミーティングに招待しています。\n\nトピック: TEAM桑村 勉強会\n時間: 2021年8月26日 11:00 PM 大阪、札幌、東京\n\nZoomミーティングに参加する\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://us04web.zoom.us/j/8138751248?pwd=dHlCMEc0NmpPSDVpcGYyYkVUNkVHQT09"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nミーティングID: "
+                },
+                {
+                  "type": "link",
+                  "url": "tel:8138751248",
+                  "text": "813 875 1248"
+                },
+                {
+                  "type": "text",
+                  "text": "\nパスコード: 0XjEAB"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2021-08-28": [
+    {
+      "client_msg_id": "486ec3ef-73e7-4982-ba96-851123f82fb2",
+      "type": "message",
+      "text": "<https://meet.google.com/rwq-gqok-ezp>",
+      "user": "U029QB3BKHS",
+      "ts": "1630216583.000200",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LS7xw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://meet.google.com/rwq-gqok-ezp"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "attachments": [
+        {
+          "title": "Meet",
+          "title_link": "https://meet.google.com/rwq-gqok-ezp",
+          "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+          "fallback": "Meet",
+          "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+          "from_url": "https://meet.google.com/rwq-gqok-ezp",
+          "thumb_width": 192,
+          "thumb_height": 192,
+          "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+          "service_name": "meet.google.com",
+          "id": 1,
+          "original_url": "https://meet.google.com/rwq-gqok-ezp"
+        }
+      ]
+    }
+  ],
+  "2021-09-26": [
+    {
+      "client_msg_id": "a15aa106-81b6-4def-a97d-132fc14aa4da",
+      "type": "message",
+      "text": "i cant create seed data. So, i wont to teach how to search bad port of my code.",
+      "user": "U0293DP00MV",
+      "ts": "1632723563.001300",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DbR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "i cant create seed data. So, i wont to teach how to search bad port of my code."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "87a3c78e5877",
+        "image_72": "https://avatars.slack-edge.com/2021-07-30/2325734956725_87a3c78e587725708638_72.jpg",
+        "first_name": "Curb",
+        "real_name": "Curb G7",
+        "display_name": "イエスタケシタ",
+        "team": "T0293DHR90X",
+        "name": "tkstdic",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "46b161b3-2601-49f3-a6c2-3bf8495ddddb",
+      "type": "message",
+      "text": "ok\nplz join zoom session",
+      "user": "U02A7QC5KEU",
+      "ts": "1632723619.001800",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "R=VbS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ok\nplz join zoom session"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "ea7fda7b-e32a-4603-bdd1-22615c6ef0c6",
+      "type": "message",
+      "text": "ok",
+      "user": "U0293DP00MV",
+      "ts": "1632723629.002100",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4ob",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ok"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "87a3c78e5877",
+        "image_72": "https://avatars.slack-edge.com/2021-07-30/2325734956725_87a3c78e587725708638_72.jpg",
+        "first_name": "Curb",
+        "real_name": "Curb G7",
+        "display_name": "イエスタケシタ",
+        "team": "T0293DHR90X",
+        "name": "tkstdic",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2021-09-27": [
+    {
+      "client_msg_id": "6e975e72-1d67-45df-9edf-1f98e29b5a20",
+      "type": "message",
+      "text": "Launch again now",
+      "user": "U02A7QC5KEU",
+      "ts": "1632726108.002300",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sZxZw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Launch again now"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "7d2606c7-6bdb-4240-b1ee-043d401618d1",
+      "type": "message",
+      "text": "ALL ERROR AER COUSE BY NINOMIYA",
+      "user": "U0293DP00MV",
+      "ts": "1632728615.003400",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6bB4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ALL ERROR AER COUSE BY NINOMIYA"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "87a3c78e5877",
+        "image_72": "https://avatars.slack-edge.com/2021-07-30/2325734956725_87a3c78e587725708638_72.jpg",
+        "first_name": "Curb",
+        "real_name": "Curb G7",
+        "display_name": "イエスタケシタ",
+        "team": "T0293DHR90X",
+        "name": "tkstdic",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "46ff7777-4d54-4f80-8219-c760aad9bca3",
+      "type": "message",
+      "text": "he is django monster",
+      "user": "U02A7QC5KEU",
+      "ts": "1632728663.003700",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "G1s",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "he is django monster"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2021-10-04": [
+    {
+      "client_msg_id": "0ce73cd6-ba8a-4024-bc76-07139af11d92",
+      "type": "message",
+      "text": "Hey meeting",
+      "user": "U029QB3BKHS",
+      "ts": "1633341988.000200",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nL=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey meeting"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2021-12-03": [
+    {
+      "client_msg_id": "6bc825b4-3b2f-4e0a-8291-1796fb5cdcb9",
+      "type": "message",
+      "text": "zoom\nしゅうごう",
+      "user": "U02A7QC5KEU",
+      "ts": "1638593767.000300",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VCH8Z",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "zoom\nしゅうごう"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "client_msg_id": "3c56070a-2556-4830-b338-37117e7a1323",
+      "type": "message",
+      "text": "ok",
+      "user": "U029QB3BKHS",
+      "ts": "1638593804.000500",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ipxyt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ok"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2022-01-16": [
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F02UXRLKZFA",
+          "created": 1642354884,
+          "timestamp": 1642354884,
+          "name": "スクリーンショット 2022-01-17 2.38.17.png",
+          "title": "スクリーンショット 2022-01-17 2.38.17.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U029QB3BKHS",
+          "user_team": "T0293DHR90X",
+          "editable": false,
+          "size": 1404801,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T0293DHR90X-F02UXRLKZFA/____________________________2022-01-17_2.38.17.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "url_private_download": "https://files.slack.com/files-pri/T0293DHR90X-F02UXRLKZFA/download/____________________________2022-01-17_2.38.17.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_64.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_80": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_80.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_360.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360_w": 360,
+          "thumb_360_h": 308,
+          "thumb_480": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_480.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_480_w": 480,
+          "thumb_480_h": 410,
+          "thumb_160": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_160.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_720.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720_w": 720,
+          "thumb_720_h": 615,
+          "thumb_800": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_800.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_800_w": 800,
+          "thumb_800_h": 684,
+          "thumb_960": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_960.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_960_w": 960,
+          "thumb_960_h": 820,
+          "thumb_1024": "https://files.slack.com/files-tmb/T0293DHR90X-F02UXRLKZFA-7a97021540/____________________________2022-01-17_2.38.17_1024.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 875,
+          "original_w": 2310,
+          "original_h": 1974,
+          "thumb_tiny": "AwApADCgqjywcckmpLeJZJlRgefSo1PyAZ7mp7L/AI/I/r/SgC2LC37lvzpw023IyC2PrU7nLHacDoecVLGQUBHSgCkNOgPdxUN5ZRQWxdCxII6mtPGTyP1qrqQAs2x6j+dAGTEARywH1qzaKq3SHeDg9AD6VVTpVi0x9rjz0yc/lQBqeSGJOSM+1TIoRAo7U0AdiKcAe5oAOaq6n/x5N9R/OrdVNT/48m+o/nQBjKwA5qa2lRLhGc4UHniq9FAG3/aFr/z0/wDHTS/2ha/89P8Ax01h0UAbn9o2v/PT/wAdNV768gmtmSN8sSOMGsuigD//2Q==",
+          "permalink": "https://slowlybirds.slack.com/files/U029QB3BKHS/F02UXRLKZFA/____________________________2022-01-17_2.38.17.png",
+          "permalink_public": "https://slack-files.com/T0293DHR90X-F02UXRLKZFA-58db96117f",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F02U1DGB65C",
+          "created": 1642354949,
+          "timestamp": 1642354949,
+          "name": "スクリーンショット 2022-01-17 2.40.19.png",
+          "title": "スクリーンショット 2022-01-17 2.40.19.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U029QB3BKHS",
+          "user_team": "T0293DHR90X",
+          "editable": false,
+          "size": 1425577,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T0293DHR90X-F02U1DGB65C/____________________________2022-01-17_2.40.19.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "url_private_download": "https://files.slack.com/files-pri/T0293DHR90X-F02U1DGB65C/download/____________________________2022-01-17_2.40.19.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_64.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_80": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_80.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_360.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360_w": 360,
+          "thumb_360_h": 308,
+          "thumb_480": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_480.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_480_w": 480,
+          "thumb_480_h": 410,
+          "thumb_160": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_160.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_720.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720_w": 720,
+          "thumb_720_h": 615,
+          "thumb_800": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_800.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_800_w": 800,
+          "thumb_800_h": 684,
+          "thumb_960": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_960.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_960_w": 960,
+          "thumb_960_h": 820,
+          "thumb_1024": "https://files.slack.com/files-tmb/T0293DHR90X-F02U1DGB65C-d80298a2c7/____________________________2022-01-17_2.40.19_1024.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 875,
+          "original_w": 2310,
+          "original_h": 1974,
+          "thumb_tiny": "AwApADCgqjywcckmpLeNJJlRwcH0qNT8gGe5qezH+lx9uf6UAXBp0J7P+dL/AGbDno/5irWcH7w/E04MDxkUAUxpsH+3UF5ZRQWxdN2QR1rSXI4yT9aramf9Db6j+dAGTEARywH1q1Zqou4yHB56YPpVROlWLPi7j+vb6UAWbWM/bJC6HHPUe9CxsNTyEIXPXHHSr49zTqdwGgAHHNVtS/48m+o/nVlQBVfU/wDjzb6j+dIDGVgBzU1tKkdyjscKDycVXooA2/7Qtf8Anp/46aX+0LX/AJ6f+OmsOigDaGoW46zZ/wCAmoL68hmtmRHyxI7EVmUUAf/Z",
+          "permalink": "https://slowlybirds.slack.com/files/U029QB3BKHS/F02U1DGB65C/____________________________2022-01-17_2.40.19.png",
+          "permalink_public": "https://slack-files.com/T0293DHR90X-F02U1DGB65C-82c9829cd4",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U029QB3BKHS",
+      "ts": "1642354965.000100",
+      "client_msg_id": "e1c8f110-a17c-4994-80fb-dce09d216151"
+    },
+    {
+      "client_msg_id": "fc89d65f-065e-4442-96ba-76df5a19779e",
+      "type": "message",
+      "text": "DeFi: 管理者のいない銀行的な",
+      "user": "U029QB3BKHS",
+      "ts": "1642354979.000900",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4keuo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "DeFi: 管理者のいない銀行的な"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2022-01-24": [
+    {
+      "client_msg_id": "bb803374-49c1-4f82-89ce-b031eead66bd",
+      "type": "message",
+      "text": "<https://noy4.github.io/qwerty-log/2022-01-24_ブログ始め方/>",
+      "user": "U029QB3BKHS",
+      "ts": "1643047300.000200",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "d+5",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://noy4.github.io/qwerty-log/2022-01-24_ブログ始め方/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    }
+  ],
+  "2022-04-09": [
+    {
+      "client_msg_id": "dc156675-30e6-40f0-afa2-8b103571db56",
+      "type": "message",
+      "text": "Team Slowly 用のNotion ページを作りました\n\n<https://www.notion.so/invite/771e383517a46e2ceca9a59a4c2cf75385efb1fb>",
+      "user": "U029QB3BKHS",
+      "ts": "1649563076.906999",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UO0TT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Team Slowly 用のNotion ページを作りました\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.notion.so/invite/771e383517a46e2ceca9a59a4c2cf75385efb1fb"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "attachments": [
+        {
+          "from_url": "https://www.notion.so/invite/771e383517a46e2ceca9a59a4c2cf75385efb1fb",
+          "image_url": "https://www.notion.so/images/meta/default.png",
+          "image_width": 476,
+          "image_height": 250,
+          "image_bytes": 80585,
+          "service_icon": "https://www.notion.so/images/logo-ios.png",
+          "id": 1,
+          "original_url": "https://www.notion.so/invite/771e383517a46e2ceca9a59a4c2cf75385efb1fb",
+          "fallback": "Notion: Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.",
+          "text": "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
+          "title": "Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.",
+          "title_link": "https://www.notion.so/invite/771e383517a46e2ceca9a59a4c2cf75385efb1fb",
+          "service_name": "Notion"
+        }
+      ]
+    }
+  ],
+  "2022-04-11": [
+    {
+      "type": "message",
+      "text": "これやったんですけど，NaNが入力されちゃうんですが，これって解決してます？\n<!channel>",
+      "files": [
+        {
+          "id": "F03B0VDEM2Q",
+          "created": 1649670652,
+          "timestamp": 1649670652,
+          "name": "スクリーンショット 2022-04-11 18.50.39.png",
+          "title": "スクリーンショット 2022-04-11 18.50.39.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U02A7QC5KEU",
+          "user_team": "T0293DHR90X",
+          "editable": false,
+          "size": 24265,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T0293DHR90X-F03B0VDEM2Q/____________________________2022-04-11_18.50.39.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "url_private_download": "https://files.slack.com/files-pri/T0293DHR90X-F03B0VDEM2Q/download/____________________________2022-04-11_18.50.39.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_64.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_80": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_80.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_360.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360_w": 360,
+          "thumb_360_h": 29,
+          "thumb_480": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_480.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_480_w": 480,
+          "thumb_480_h": 38,
+          "thumb_160": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_160.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_720.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720_w": 720,
+          "thumb_720_h": 57,
+          "thumb_800": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_800.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_800_w": 800,
+          "thumb_800_h": 64,
+          "thumb_960": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_960.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_960_w": 960,
+          "thumb_960_h": 76,
+          "thumb_1024": "https://files.slack.com/files-tmb/T0293DHR90X-F03B0VDEM2Q-caea7c6046/____________________________2022-04-11_18.50.39_1024.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 82,
+          "original_w": 1030,
+          "original_h": 82,
+          "thumb_tiny": "AwADADDTwKTApaKAEwKMClooATaKAoFLRQB//9k=",
+          "permalink": "https://slowlybirds.slack.com/files/U02A7QC5KEU/F03B0VDEM2Q/____________________________2022-04-11_18.50.39.png",
+          "permalink_public": "https://slack-files.com/T0293DHR90X-F03B0VDEM2Q-bbfaa9a813",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U02A7QC5KEU",
+      "display_as_bot": false,
+      "ts": "1649670705.899559",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "p5y",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "これやったんですけど，NaNが入力されちゃうんですが，これって解決してます？\n"
+                },
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "client_msg_id": "2ed115d5-1fa5-4b8f-bc26-d976d3b93bfa"
+    },
+    {
+      "client_msg_id": "132b7cd4-3bab-40dc-b657-16a82ce5ce5c",
+      "type": "message",
+      "text": "最新版pullしてきたら直りました．Sorry",
+      "user": "U02A7QC5KEU",
+      "ts": "1649670756.903249",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "P8vuC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "最新版pullしてきたら直りました．Sorry"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      }
+    },
+    {
+      "type": "message",
+      "text": "英語ロードマップ",
+      "files": [
+        {
+          "id": "F03ALKLPLKZ",
+          "created": 1649698243,
+          "timestamp": 1649698243,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U029QB3BKHS",
+          "user_team": "T0293DHR90X",
+          "editable": false,
+          "size": 337407,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T0293DHR90X-F03ALKLPLKZ/image.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "url_private_download": "https://files.slack.com/files-pri/T0293DHR90X-F03ALKLPLKZ/download/image.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_64.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_80": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_80.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_360.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_360_w": 181,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_480.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_480_w": 241,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_160.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_720.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_720_w": 361,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_800.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_800_w": 402,
+          "thumb_800_h": 800,
+          "thumb_960": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_960.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_960_w": 482,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T0293DHR90X-F03ALKLPLKZ-f0acf00937/image_1024.png?t=xoxe-2309459859031-6222537391536-6199451108083-fe52ad8a29c84fc45a15234292ba26f9",
+          "thumb_1024_w": 514,
+          "thumb_1024_h": 1024,
+          "original_w": 782,
+          "original_h": 1558,
+          "thumb_tiny": "AwAwABi825iduVwfzpw3ev6UhDDJJB5447UoIxyKABVfIy4I9NtPpB7DrS0ANYik49P0pS3saBn/ACKAAdf/AK1OoooAjAjBbBGc8896cMdhx7GgqOwAoCj1oAdRSBQOlLQB/9k=",
+          "permalink": "https://slowlybirds.slack.com/files/U029QB3BKHS/F03ALKLPLKZ/image.png",
+          "permalink_public": "https://slack-files.com/T0293DHR90X-F03ALKLPLKZ-73b4312785",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U029QB3BKHS",
+      "display_as_bot": false,
+      "ts": "1649698260.641729",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5tSl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "英語ロードマップ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "client_msg_id": "48aef7c9-ea52-40e2-a53d-8948347ba457"
+    },
+    {
+      "client_msg_id": "ff88bb5c-2597-4a0d-b5bf-2c74ef798832",
+      "type": "message",
+      "text": "プログラミングロードマップ\n\n<https://roadmap.sh/>",
+      "user": "U029QB3BKHS",
+      "ts": "1649698366.488769",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MyM3c",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "プログラミングロードマップ\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://roadmap.sh/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "attachments": [
+        {
+          "from_url": "https://roadmap.sh/",
+          "thumb_url": "https://roadmap.sh/brand-square.png",
+          "thumb_width": 512,
+          "thumb_height": 512,
+          "service_icon": "https://roadmap.sh/manifest/apple-touch-icon.png",
+          "id": 1,
+          "original_url": "https://roadmap.sh/",
+          "fallback": "roadmap.sh: Developer Roadmaps",
+          "text": "Community driven roadmaps, articles, guides, quizzes, tips and resources for developers to learn from, identify their career paths, know what they don't know, find out the knowledge gaps, learn and improve.",
+          "title": "Developer Roadmaps",
+          "title_link": "https://roadmap.sh/",
+          "service_name": "roadmap.sh"
+        }
+      ]
+    },
+    {
+      "client_msg_id": "0e664c5a-8bba-4107-b96e-04a096fce52d",
+      "type": "message",
+      "text": "<https://www.youtube.com/watch?v=7uJGjbkp0-U&amp;pp=ugMICgJqYRABGAE%3D>",
+      "user": "U029QB3BKHS",
+      "ts": "1649698510.230419",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eev",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://www.youtube.com/watch?v=7uJGjbkp0-U&pp=ugMICgJqYRABGAE%3D"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "33a362e4e963",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2331744655540_33a362e4e963cfb83111_72.jpg",
+        "first_name": "桑村直弥",
+        "real_name": "桑村直弥",
+        "display_name": "桑音菩薩",
+        "team": "T0293DHR90X",
+        "name": "naoyan418",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "attachments": [
+        {
+          "from_url": "https://www.youtube.com/watch?v=7uJGjbkp0-U&amp;pp=ugMICgJqYRABGAE%3D",
+          "thumb_url": "https://i.ytimg.com/vi/7uJGjbkp0-U/hqdefault.jpg",
+          "thumb_width": 480,
+          "thumb_height": 360,
+          "video_html": "<iframe width=\"400\" height=\"225\" src=\"https://www.youtube.com/embed/7uJGjbkp0-U?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+          "video_html_width": 400,
+          "video_html_height": 225,
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/youtube.png",
+          "id": 1,
+          "original_url": "https://www.youtube.com/watch?v=7uJGjbkp0-U&amp;pp=ugMICgJqYRABGAE%3D",
+          "fallback": "YouTube Video: NEW!! Web Developer Roadmap 2022 | Ultimate Guide To Starting A Career In Web Development",
+          "title": "NEW!! Web Developer Roadmap 2022 | Ultimate Guide To Starting A Career In Web Development",
+          "title_link": "https://www.youtube.com/watch?v=7uJGjbkp0-U&amp;pp=ugMICgJqYRABGAE%3D",
+          "author_name": "codeSTACKr",
+          "author_link": "https://www.youtube.com/c/codeSTACKr",
+          "service_name": "YouTube",
+          "service_url": "https://www.youtube.com/"
+        }
+      ]
+    }
+  ],
+  "2022-07-31": [
+    {
+      "client_msg_id": "da4ef68c-95a4-4059-a62d-fae7604adf92",
+      "type": "message",
+      "text": "SSRとは\n<https://web.dev/rendering-on-the-web/#wrapping-up>...",
+      "user": "U02A7QC5KEU",
+      "ts": "1659253464.215809",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "O/O",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "SSRとは\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://web.dev/rendering-on-the-web/#wrapping-up"
+                },
+                {
+                  "type": "text",
+                  "text": "..."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "T0293DHR90X",
+      "user_team": "T0293DHR90X",
+      "source_team": "T0293DHR90X",
+      "user_profile": {
+        "avatar_hash": "b2706f5a3384",
+        "image_72": "https://avatars.slack-edge.com/2021-07-29/2324384042803_b2706f5a3384eb50ead6_72.jpg",
+        "first_name": "おなぬ金太郎",
+        "real_name": "おなぬ金太郎",
+        "display_name": "ゼウス山﨑",
+        "team": "T0293DHR90X",
+        "name": "onanukintaro",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "attachments": [
+        {
+          "from_url": "https://web.dev/rendering-on-the-web/#wrapping-up",
+          "image_url": "https://web-dev.imgix.net/image/FNkVSAX8UDTTQWQkKftSgGe9clO2/uZ3hQS2EPrA9csOgkoXI.png?auto=format&fit=max&w=1200&fm=auto",
+          "image_width": 250,
+          "image_height": 250,
+          "image_bytes": 26448,
+          "service_icon": "https://web.dev/images/favicon.ico",
+          "id": 1,
+          "original_url": "https://web.dev/rendering-on-the-web/#wrapping-up",
+          "fallback": "web.dev: Rendering on the Web",
+          "text": "Where should we implement logic and rendering in our applications? Should we use Server Side Rendering? What about Rehydration? Let's find some answers!",
+          "title": "Rendering on the Web",
+          "title_link": "https://web.dev/rendering-on-the-web/#wrapping-up",
+          "service_name": "web.dev"
+        }
+      ]
+    }
+  ]
+}

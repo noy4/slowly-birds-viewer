@@ -1,0 +1,227 @@
+[
+  {
+    "id": "C029BCP5UNS",
+    "name": "random",
+    "created": 1627526639,
+    "creator": "U02A7QC5KEU",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "このチャンネルでは、どんなことでも話せます。チーム内のジョークや、とっさに思い付いたアイデア、おもしろい GIF 画像を投稿できます。思いのままに活用しましょう！",
+      "creator": "U02A7QC5KEU",
+      "last_set": 1627526639
+    }
+  },
+  {
+    "id": "C029J5AHPFC",
+    "name": "general",
+    "created": 1627526639,
+    "creator": "U02A7QC5KEU",
+    "is_archived": false,
+    "is_general": true,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "pins": [
+      {
+        "id": "1649698260.641729",
+        "type": "C",
+        "created": 1649698581,
+        "user": "U029QB3BKHS",
+        "owner": "U029QB3BKHS"
+      }
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "このチャンネルには、常にすべてのメンバーが含まれます。社内通知やチーム全体の会話にぴったりです。",
+      "creator": "U02A7QC5KEU",
+      "last_set": 1627526639
+    }
+  },
+  {
+    "id": "C029WQ3H801",
+    "name": "フロントエンドの神々",
+    "created": 1627526815,
+    "creator": "U02A7QC5KEU",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "pins": [
+      {
+        "id": "1638686915.000500",
+        "type": "C",
+        "created": 1639386714,
+        "user": "U02A7QC5KEU",
+        "owner": "U029QB3BKHS"
+      }
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "この *channel* はプロジェクトの作業に使います。ミーティングの開催、資料の共有、チーム一体での意思決定ができます。",
+      "creator": "U02A7QC5KEU",
+      "last_set": 1627526815
+    }
+  },
+  {
+    "id": "C02A1DUUWLR",
+    "name": "consulting",
+    "created": 1627614839,
+    "creator": "U02A7QC5KEU",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    }
+  },
+  {
+    "id": "C02RC0GKXEE",
+    "name": "ないすと",
+    "created": 1639986682,
+    "creator": "U02A7QC5KEU",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "ないすと関係のやつ",
+      "creator": "U02A7QC5KEU",
+      "last_set": 1639986682
+    }
+  },
+  {
+    "id": "C031421MJM8",
+    "name": "ゴミ捨て場",
+    "created": 1643725054,
+    "creator": "U02A7QC5KEU",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "おなぬがオンラインカジノでいくら稼げるのか",
+      "creator": "U02A7QC5KEU",
+      "last_set": 1643725054
+    }
+  },
+  {
+    "id": "C038VNS3EUX",
+    "name": "times_ゆま",
+    "created": 1648636989,
+    "creator": "U02A7QC5KEU",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    }
+  },
+  {
+    "id": "C039VJ3TXDL",
+    "name": "times_くわ",
+    "created": 1649112766,
+    "creator": "U029QB3BKHS",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    }
+  },
+  {
+    "id": "C03A8T0C3UM",
+    "name": "times_たけ",
+    "created": 1649249998,
+    "creator": "U0293DP00MV",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U0293DP00MV",
+      "U029QB3BKHS",
+      "U02A7QC5KEU"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    }
+  }
+]
