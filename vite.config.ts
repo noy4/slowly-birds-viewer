@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/slowly-birds-log/',
+  base: '/slowly-birds-viewer/',
   server: {
     fs: {
       // プロジェクトルートの外のファイルへのアクセスを許可
