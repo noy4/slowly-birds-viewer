@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link as RouterLink } from 'react-router-dom'
-import { Box, Stack, Heading, Text, Button, Flex, Modal, ModalOverlay, ModalContent, ModalBody, ModalCloseButton, Image, useDisclosure } from '@chakra-ui/react'
+import { Box, Stack, Heading, Text, Button, Flex, Modal, ModalOverlay, ModalContent, ModalBody, ModalCloseButton, Image, useDisclosure, useColorModeValue } from '@chakra-ui/react'
 import { formatMessageText, formatReaction } from '../utils/messageFormatter'
 import { SlackMessage, SlackUser } from '../types/slack'
 import { BASE_PATH } from '../config'
@@ -19,6 +19,12 @@ export function ChannelView() {
   const [users, setUsers] = useState<{ [key: string]: SlackUser }>({})
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const { isOpen, onOpen, onClose } = useDisclosure()
+
+  // カラーモードに応じた色の定義
+  const dateBgColor = useColorModeValue('blue.50', 'blue.900')
+  const messageBgColor = useColorModeValue('white', 'gray.700')
+  const messageBorderColor = useColorModeValue('gray.200', 'gray.600')
+  const reactionBgColor = useColorModeValue('gray.100', 'gray.600')
 
   const handleImageClick = (url: string) => {
     setSelectedImage(url)
@@ -84,7 +90,7 @@ export function ChannelView() {
           {Object.entries(messages).map(([date, dailyMessages]) => (
             <Box key={date}>
               <Box
-                bg="blue.50"
+                bg={dateBgColor}
                 p={2}
                 borderRadius="md"
                 mb={4}
@@ -98,10 +104,11 @@ export function ChannelView() {
                   <Box
                     key={message.ts}
                     p={4}
-                    bg="white"
+                    bg={messageBgColor}
                     borderRadius="lg"
                     boxShadow="sm"
                     borderWidth="1px"
+                    borderColor={messageBorderColor}
                   >
                     <Text fontWeight="bold" mb={2}>
                       {users[message.user]?.real_name || message.user}
@@ -114,7 +121,7 @@ export function ChannelView() {
                         {message.reactions.map((reaction) => (
                           <Box
                             key={reaction.name}
-                            bg="gray.100"
+                            bg={reactionBgColor}
                             px={2}
                             py={1}
                             borderRadius="md"
