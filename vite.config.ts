@@ -22,5 +22,7 @@ export default defineConfig({
         entryFileNames: 'assets/[name]-[hash].js',
       },
     },
+    // publicディレクトリの処理を設定
+    copyPublicDir: true
   }
 })
