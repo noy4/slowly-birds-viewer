@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Box, Heading, Stack, Text } from '@chakra-ui/react'
+import { Box, Heading, Stack, Text, useColorModeValue } from '@chakra-ui/react'
 import { Link as RouterLink } from 'react-router-dom'
 import { BASE_PATH } from '../config'
 
@@ -11,6 +11,12 @@ interface Channel {
 
 export function ChannelList() {
   const [channels, setChannels] = useState<Channel[]>([])
+  
+  // カラーモードに応じた色の定義
+  const bgColor = useColorModeValue('white', 'gray.700')
+  const borderColor = useColorModeValue('gray.200', 'gray.600')
+  const hoverBgColor = useColorModeValue('blue.50', 'blue.900')
+  const channelNameColor = useColorModeValue('blue.600', 'blue.200')
 
   useEffect(() => {
     const loadChannels = async () => {
@@ -38,19 +44,20 @@ export function ChannelList() {
             as={RouterLink}
             to={`/channel/${channel.name}`}
             p={4}
-            bg="white"
+            bg={bgColor}
             borderRadius="lg"
             boxShadow="sm"
             borderWidth="1px"
+            borderColor={borderColor}
             _hover={{
-              bg: 'blue.50',
+              bg: hoverBgColor,
               transform: 'translateY(-2px)',
               transition: 'all 0.2s',
               textDecoration: 'none'
             }}
           >
             <Text
-              color="blue.600"
+              color={channelNameColor}
               fontSize="lg"
               fontWeight="medium"
             >
