@@ -1,5 +1,6 @@
-# Slowly Birds 友の会 ログビューワー
+made with Roo code
 
+# Slowly Birds 友の会 ログビューワー
 Slackエクスポートデータを閲覧するためのWebアプリケーションです。
 
 ## 開発環境のセットアップ
@@ -7,9 +8,6 @@ Slackエクスポートデータを閲覧するためのWebアプリケーショ
 ```bash
 # 依存パッケージのインストール
 npm install
-
-# データの変換
-npm run convert-data
 
 # 開発サーバーの起動
 npm run dev
@@ -31,9 +29,22 @@ mainブランチにプッシュすると、GitHub Actionsによって自動的�
 
 ## 技術スタック
 
-- React
-- TypeScript
-- Vite
-- Chakra UI
-- React Router
+### フレームワーク・ライブラリ
+- React v18
+- TypeScript v5.7
+- Vite v6
+- React Router v7
+
+### UI・スタイリング
+- Chakra UI v2
+- Emotion
+- Framer Motion
+
+### ユーティリティ
 - dayjs
+- emoji-mart
+- emoji-regex
+
+### 開発ツール
+- ESLint v9
+- TypeScript ESLint
